@@ -1,0 +1,19 @@
+{
+    "name": "mcneely/ipp",
+    "description": "Inline PHP Preprocessor POC",
+    "require": {
+        "yay/yay": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paul L. McNeely",
+            "email": "paul@paulmcneely.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "McNeely\\": "src/"
+        }
+    }
+}
